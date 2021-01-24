@@ -38,7 +38,18 @@
                 <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>My List</a>
             </div>
         </div>
-        <a class='play'> <img src="img/play.png" >Watch Trailer</a>
+        <a class='play' onclick="toggleVideo();"> <img src="img/play.png" >Watch Trailer</a>
     </div>
+    <div class="trailer">
+        <video src="img/Mulan _ Trailer Legendado.mp4" controls='true' autoplay='true' ></video>
+        <img src="img/close.png" class="close" onclick="toggleVideo()" >
+    </div>
+
+    <script>
+        function toggleVideo(){
+            const trailer = document.querySelector('.trailer');
+            trailer.classList.toggle('active')
+        }
+    </script>
 </body>
 </html>
