@@ -222,4 +222,11 @@ header .logo{
     max-width: 32px;
 }
 
+@media(max-width: 991px){
+    header{
+        padding: 20px 50px;
+        flex-direction: column;
+    }
+}
+
 
