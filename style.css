@@ -132,3 +132,59 @@ header .logo{
     font-style: normal;
     border-radius: 2px;
 }
+.banner .content p{
+    font-style: 1em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 10px 0 20px;
+}
+
+.banner .content .buttons{
+    position: relative;
+}
+
+.banner .content .buttons a{
+    position: relative;
+    display: inline-block;
+    margin-right:10px;
+    background: #de0611;
+    color: #fff;
+    padding: 6px 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.banner .content .buttons a:nth-child(2){
+    background: rgba(0,0,0,0.5); 
+    border: 1px solid rgba(255,255,255,0.5);
+}
+
+.banner .content .buttons a:hover:nth-child(2){
+    background: #de0611;
+}
+
+.play{
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.play img{
+    margin-right:10px;
+    max-width: 50px;
+}
+
+
