@@ -71,8 +71,9 @@ header .logo{
 .search .fa-search{
     position: absolute;
     top: 50%;
-    left:10px;
+    left: 10px;
     transform: translateY(-50%);
     padding-right: 10px;
     color: #fff;
+
 }
