@@ -256,6 +256,12 @@ header .logo{
     header{
         padding: 20px;
     }
+
+    .search{
+        position: relative;
+        width: calc(100%-20px);
+        height: 40px;
+    }
 }
 
 
