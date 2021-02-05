@@ -227,6 +227,15 @@ header .logo{
         padding: 20px 50px;
         flex-direction: column;
     }
+    .navigation{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 10px 0;
+    }
+    .banner{
+        padding: 100px 50px;
+    }
 }
 
 
