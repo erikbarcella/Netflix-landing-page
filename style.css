@@ -262,6 +262,16 @@ header .logo{
         width: calc(100%-20px);
         height: 40px;
     }
+
+    .banner{
+        padding: 220px 20px 100px;
+    }
+
+    .banner .play{
+        left: 20px;
+        font-size: 1em;
+        bottom: 30px;
+    }
 }
 
 
